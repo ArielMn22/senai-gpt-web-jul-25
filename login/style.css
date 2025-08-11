@@ -1,33 +1,33 @@
 .titulo {
-    
+
     font-size: 76px;
 
 }
 
 .robo-image {
 
-    background-color: red;
-    width: 50vw; /* 50% da largura do monitor */
-    height: 100vh; /* 100% do altura da tela */
-    
-}
-
-.page-container {
-
-    display: flex; /* um ao lado do outro */
+    height: 100vh; /* 100% da altura da tela */
+    width: 50vw; /* 50% da largura da tela */
+    background-color: red; 
 
 }
 
 .login-container {
 
-    background-color: green;
-    width: 50vw; /* 50% da largura do monitor */
-    height: 100vh; /* 100% do altura da tela */
+    height: 100vh; /* 100% da altura da tela */
+    width: 50vw; /* 50% da largura da tela */
+    background-color: green; 
 
-    /* Kit sobrevivência da centralização */
-    display: flex; /* Ativar o flex */
+    /* Kit da centralização */
+    display: flex; /* Ativa o flex */
     flex-direction: column; /* Muda o flex para colunas */
     align-items: center; /* Centralizar horizontalmente */
     justify-content: center; /* Centralizar verticalmente */
+
+}
+
+.page-container {
+
+    display: flex; /* um ao lado do outro */
 
 }
