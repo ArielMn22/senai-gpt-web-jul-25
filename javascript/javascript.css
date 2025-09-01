@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&display=swap');
+
+* {
+
+    font-family: "Jockey One";
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    padding: 20px;
+    background-color: #191919;
+
+}
+
+h1 {
+
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+
+    font-size: 1.5em;
+    color: royalblue;
+    margin-bottom: 10px;
+
+}
+
+h3 {
+
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+p {
+
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+button {
+
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10000px;
+    padding: 0px 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all ease .2s;
+
+}
+
+button:hover {
+
+    background-color: royalblue;
+    transform: scale(1.1) rotateZ(2deg);
+
+}
+
+button:active {
+
+    background-color: gold;
+
+}
