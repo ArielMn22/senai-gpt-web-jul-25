@@ -29,6 +29,8 @@ function exercicio05() {
     }
   }
 
+  adicionarLog();
+
 }
 
 // Exercício 6
